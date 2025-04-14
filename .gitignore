@@ -1,0 +1,7 @@
+.env
+
+data/
+outputs/
+venv-bird-autogen/
+
+.DS_Store
