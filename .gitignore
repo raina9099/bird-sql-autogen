@@ -5,3 +5,5 @@ outputs/
 venv-bird-autogen/
 
 .DS_Store
+__pycache__
+.cache
