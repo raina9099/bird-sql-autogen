@@ -1,6 +1,10 @@
 # config.py
 import os
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # OpenAI API configuration
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 OPENAI_MODEL = "gpt-4o"  # Use the most capable model available
